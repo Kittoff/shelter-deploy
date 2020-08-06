@@ -21,7 +21,7 @@ function Nav() {
                     <Scroll to="help" smooth={true} duration={1200} className="menu-item under">To help the shelter</Scroll>
                     <Scroll to="contact" smooth={true} duration={1200} className="menu-item under">Contacts</Scroll> */}
 
-                <HashLink smooth to="/#about" className="menu-item under">About the shelter</HashLink>
+                <HashLink smooth to="/#abouts" className="menu-item under">About the shelter</HashLink>
                 <HashLink smooth to="/#pets" className="menu-item under">Our pets</HashLink>
                 <HashLink smooth to="/#help" className="menu-item under">To help the shelter</HashLink>
                 <HashLink smooth to="/#contact" className="menu-item under">Contacts</HashLink>

@@ -6,16 +6,17 @@ function About() {
     return (
         <section className="section">
             <div className="l-container">
-                <div className="section-about" id="about">
+                <div className="section-about">
                     <div className="pets-about">
                         <img src={petsAbout} alt="" />
                     </div>
                     <div className="section-title">
-                        <h1>
+                        <span id="abouts"></span>
+                        <h1 id="about" >
                             About the shelter <br />
                 “Cozy House”
               </h1>
-                        <p>
+                        <p >
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
                             efficitur blandit condimentum. Proin accumsan lorem vel gravida
                             fringilla. Suspendisse potenti. Mauris ut pulvinar nunc.

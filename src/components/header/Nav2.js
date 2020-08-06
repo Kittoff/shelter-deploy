@@ -13,7 +13,7 @@ function Nav() {
             </div>
 
             <nav className="menu menu-2">
-                <HashLink smooth to="/#about" className="menu-item menu-item-2 under">About the shelter</HashLink>
+                <HashLink smooth to="/#abouts" className="menu-item menu-item-2 under">About the shelter</HashLink>
                 <HashLink smooth to="/#pets" className="menu-item menu-item-2 is-active under">Our pets</HashLink>
                 <HashLink smooth to="/#help" className="menu-item menu-item-2 under">To help the shelter</HashLink>
                 <HashLink smooth to="/#contact" className="menu-item menu-item-2 under">Contacts</HashLink>

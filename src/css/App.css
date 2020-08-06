@@ -482,6 +482,9 @@ li::before {
 
 .pets-images-container > img {
   height: 225px;
+  max-width: -webkit-max-content;
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 
 .section-help-icons {

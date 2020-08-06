@@ -106,6 +106,7 @@ h3 {
   color: #ffffff;
   margin-top: 200px;
   margin-bottom: 30px;
+  line-height: normal;
 }
 
 .header-baseline-l2 {
@@ -342,6 +343,11 @@ h3 {
 
 .friends-title {
   text-align: center;
+}
+
+.section-title {
+  width: 342px;
+  float: left;
 }
 
 .section-two {

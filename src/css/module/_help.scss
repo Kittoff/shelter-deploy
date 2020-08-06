@@ -1,0 +1,26 @@
+
+
+.section-help-icons {
+    display: grid; // activate grid
+    grid-template-columns: repeat(5, 1fr); //make 4 cols with size 1fr
+    grid-gap: 20px; //gap between the rows
+    img{
+        width: 50px;
+        height: 60px;
+        margin: auto;
+    }
+
+}
+
+.section-help-title {
+    margin-bottom: 85px;
+    margin-top: 75px;
+}
+.section-help-icon{
+    width: 90px;
+    text-align: center;
+    margin: auto;
+}
+.section-help{
+    height: 600px;
+}

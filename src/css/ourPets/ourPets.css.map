@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACL,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,oBAAoB;EACtC,UAAU,EAAE,KAAK;CACpB;;AACD,AAAA,MAAM,CAAA;EACF,WAAW,EAAE,GAAG;CACnB",
+    "sources": [
+        "ourPets.scss"
+    ],
+    "names": [],
+    "file": "ourPets.css"
+}

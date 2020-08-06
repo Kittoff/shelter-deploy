@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: initial !important;
+    // font-family: "Georgia", sans-serif !important;
+}
+// *, ::after, ::before {
+//     box-sizing: initial;
+// }
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+    
+}
+h3 {
+    // margin-top: 60px !important;
+    // display: block;
+    // float: left !important;
+    font-size: 47px !important;
+   
+    color: #f1cdb3 !important;
+}
+.ui.modal>.content {
+    width: 80% !important;
+}
+.menu{
+    color: #cdcdcd;
+    text-decoration: none;
+}
+.menu-item{
+    cursor: pointer;
+}
+.l-container{
+    width: 1170px;
+    margin: auto;
+    
+    h1{
+        font-size: 35px;
+        color:#545454;
+    }
+}
+.cb{ clear: both; }
+
+.btn {
+    cursor: pointer;
+}

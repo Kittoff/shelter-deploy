@@ -1,0 +1,141 @@
+.section{
+    padding: 123px 0 250px 0;
+    color: #545454;
+    text-align: left;
+    margin-left: 275px;
+    // padding-bottom: 94px;
+    
+
+    p{
+        text-align: left;
+        width: 843px;
+    }
+
+}
+.pets-about{
+    float: left;
+    padding-right: 126px;
+}
+.friends-title{
+    text-align: center;
+}
+.section-two{
+    background-color:#f6f6f6;
+    height: 845px;
+    padding-top: 80px;
+}
+.section-friends-title{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 80px;
+    color: #545454;
+}
+
+.section-friends-right-arrow{
+    display: flex;
+    justify-content: right;
+// float: right;
+}
+
+.section-friends-images{
+
+        margin-right: 25px !important;
+        float: left;
+    }
+            img{
+    
+                max-width: initial !important;
+            }
+.section-friends-image{
+    width: 100%;
+    height: 50%;
+    margin-right: 25px !important;
+    
+}
+
+.section-friends-images-container{
+    display: flex;
+}
+ul {list-style: none}
+li::before {content: "•"; color: #f1d0b8}
+.carac {
+    // font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+.arrow{
+    height: min-content;
+    margin-top: 180px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #f1cdb3;
+    }
+}
+.section-friends-right-arrow{
+    transform: scaleX(-1);
+}
+
+.section-friends-pets{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.pet-container {
+    height: 222px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 107px;
+    
+    display: grid; // activate grid
+    grid-template-columns: repeat(4, 1fr); //make 4 cols with size 1fr
+    grid-gap: 20px; //gap between the rows
+}
+
+.carousel-btn:hover{
+background-color: #f1d0b8 !important;
+}
+
+
+.pet-name {
+    display: block;
+    text-align: center;
+}
+
+.section-friends{
+    text-align: center;
+}
+
+.btn-more {
+    margin-top: 250px;
+}
+
+.pagination{
+    // display: flex;
+    // width: 60;
+    // border: "2px solid #f1d0b8" !important;
+    // border-radius: 100;
+    // background: "none";
+    cursor: "pointer" !important;
+    letter-spacing: 12px;
+    // height: 60;
+    // min-width:  60;
+    // align-self: "center";
+    
+}
+#active {
+    background-color: #f1cdb3 !important;
+    // font-size: 222px;
+    // color: red !important;
+    // border: "10px solid black" !important;
+}
+.section-two-pets{
+    background-color:#f6f6f6;
+    // height: 845px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+.pets-images-container>img{
+    height: 225px;
+}

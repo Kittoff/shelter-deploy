@@ -1,0 +1,14 @@
+.section-about{
+    @media(max-width: 765px){
+        width: 10px;
+        margin-left: -222px;
+        p{
+            width: 300px !important;
+            margin-left: 250px;
+            margin-top: -220px;
+        }
+        img{
+            margin-left: 222px;
+        }
+    }
+}

@@ -1,6 +1,18 @@
 .pets-donation{
     float: left;
     padding-right: 126px;
+    @media(max-width:765px){
+        padding-right: 0;
+    }
+    img{
+        
+        @media(max-width: 765px){
+            width: 25rem;
+            padding-right: 0 !important;
+            float: none;
+            
+        }
+    }
 }
 .section-donation{
     height: 436px;

@@ -38,6 +38,9 @@ h3 {
         font-size: 35px;
         color:#545454;
     }
+    @media(max-width: 375px){
+        width: 375px !important;
+    }
 }
 .cb{ clear: both; }
 

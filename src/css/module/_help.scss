@@ -9,6 +9,11 @@
         height: 60px;
         margin: auto;
     }
+    @media(max-width: 765px){
+        display: grid; // activate grid
+        grid-template-columns: repeat(3, 1fr) !important; //make 3 cols with size 1fr
+
+    }
 
 }
 

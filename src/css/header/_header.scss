@@ -2,6 +2,10 @@
     background: url(/img/header/header.jpg) center top repeat;
     background-size: cover;
     padding: 0 0 664px 0;
+    @media(max-width:765px){
+        
+        // padding-bottom: 300px;
+    }
 }
 
 .header-title{
@@ -38,7 +42,7 @@
         text-decoration: underline #f1cdb3 3px !important;
     }
     
-    @media(max-width: 768px){
+    @media(max-width: 765px){
         display: flex !important;
         padding-bottom: 50px !important;
     }
@@ -62,4 +66,7 @@
     font-size: 15px;
     width: 470px;
     margin-bottom: 55px;
+    @media(max-width: 765px){
+        width: 350px;
+    }
 }

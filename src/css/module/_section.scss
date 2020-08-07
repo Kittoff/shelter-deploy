@@ -4,6 +4,9 @@
     text-align: left;
     margin-left: 275px;
     // padding-bottom: 94px;
+    @media(max-width:765px){
+        margin-left: 0;
+    }
     
 
     p{
@@ -15,6 +18,9 @@
 .pets-about{
     float: left;
     padding-right: 126px;
+    @media(max-width: 765px){
+        padding-right: 0;
+    }
 }
 .friends-title{
     text-align: center;
@@ -22,6 +28,9 @@
 .legal-information{
     width: 400px;
     float: left;
+    @media(max-width: 765px){
+        width: 300px;
+    }
 }
 .section-two{
     background-color:#f6f6f6;
@@ -63,9 +72,6 @@
 }
 ul {list-style: none}
 li::before {content: "•"; color: #f1d0b8}
-.carac {
-    // font-family: Georgia, 'Times New Roman', Times, serif !important;
-}
 .arrow{
     height: min-content;
     margin-top: 180px;
@@ -84,7 +90,9 @@ li::before {content: "•"; color: #f1d0b8}
     flex-flow: row wrap;
     justify-content: space-around;
 }
-
+._1la421bxBQAeua6KKGZ1oQ {
+    @media(max-width: 765px){width: 35% !important;}
+}
 .pet-container {
     height: 222px;
     text-align: center;
@@ -94,6 +102,11 @@ li::before {content: "•"; color: #f1d0b8}
     display: grid; // activate grid
     grid-template-columns: repeat(4, 1fr); //make 4 cols with size 1fr
     grid-gap: 20px; //gap between the rows
+    @media(max-width: 765px){
+        grid-template-columns: repeat(1, 1fr); //make 4 cols with size 1fr
+        height: 100%;
+
+    }
 }
 
 .carousel-btn:hover{
@@ -112,30 +125,21 @@ background-color: #f1d0b8 !important;
 
 .btn-more {
     margin-top: 250px;
+    @media(max-width: 765px){
+        margin-top: 0 !important;
+    }
 }
 
 .pagination{
-    // display: flex;
-    // width: 60;
-    // border: "2px solid #f1d0b8" !important;
-    // border-radius: 100;
-    // background: "none";
     cursor: "pointer" !important;
     letter-spacing: 12px;
-    // height: 60;
-    // min-width:  60;
-    // align-self: "center";
     
 }
 #active {
     background-color: #f1cdb3 !important;
-    // font-size: 222px;
-    // color: red !important;
-    // border: "10px solid black" !important;
 }
 .section-two-pets{
     background-color:#f6f6f6;
-    // height: 845px;
     padding-top: 80px;
     padding-bottom: 200px;
 }

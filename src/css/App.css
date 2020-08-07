@@ -64,6 +64,9 @@ h3 {
 
 .header-title {
   margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   float: left;
   color: #f1cdb3;
 }
@@ -77,20 +80,41 @@ h3 {
 
 .menu {
   color: #cdcdcd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
   font-size: 15px;
   margin-top: 94px;
-  float: right;
-  text-align: right;
+  padding-left: 235px;
+  margin: -55px;
+}
+
+@media (max-width: 768px) {
+  .menu {
+    padding-left: 95px;
+  }
 }
 
 .menu-item {
-  display: inline-block !important;
   padding: 0 37px !important;
 }
 
 .menu-item:hover, .menu-item.is-active {
   -webkit-text-decoration: underline #f1cdb3 3px !important;
           text-decoration: underline #f1cdb3 3px !important;
+}
+
+@media (max-width: 768px) {
+  .menu-item {
+    display: -webkit-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    padding-bottom: 50px !important;
+  }
 }
 
 .header-baseline {

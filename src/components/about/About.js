@@ -5,13 +5,13 @@ import { Link } from 'react-scroll';
 function About() {
     return (
         <section className="section">
+            <span id="abouts"></span>
             <div className="l-container">
                 <div className="section-about">
                     <div className="pets-about">
                         <img src={petsAbout} alt="" />
                     </div>
                     <div className="section-title">
-                        <span id="abouts"></span>
                         <h1 id="about" >
                             About the shelter <br />
                 “Cozy House”

@@ -24,7 +24,8 @@
     "react-simply-carousel": "^2.1.9",
     "sass-loader": "^9.0.2",
     "semantic-ui-css": "^2.4.1",
-    "semantic-ui-react": "^1.1.1"
+    "semantic-ui-react": "^1.1.1",
+    "styled-components": "^5.1.1"
   },
   "scripts": {
     "start": "react-scripts start",

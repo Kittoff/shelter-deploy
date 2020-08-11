@@ -4,7 +4,7 @@
     text-align: left;
     margin-left: 275px;
     // padding-bottom: 94px;
-    @media(max-width:765px){
+    @media(max-width:768px){
         margin-left: 0;
     }
     
@@ -18,8 +18,30 @@
 .pets-about{
     float: left;
     padding-right: 126px;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
         padding-right: 0;
+        float: none;
+    }
+}
+.section-title-container-title{
+    @media(max-width: 768px) {
+        width: max-content;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+.section-title-container{
+@media(max-width: 768px){
+    h1{
+
+        margin-left: 222px !important;
+    }
+        display: grid;
+        flex-wrap: wrap;
+        gap: 2em;
+    }
+    img{
+        float: left;
     }
 }
 .friends-title{
@@ -28,7 +50,7 @@
 .legal-information{
     width: 400px;
     float: left;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
         width: 300px;
     }
 }
@@ -91,7 +113,7 @@ li::before {content: "•"; color: #f1d0b8}
     justify-content: space-around;
 }
 ._1la421bxBQAeua6KKGZ1oQ {
-    @media(max-width: 765px){width: 35% !important;}
+    @media(max-width: 768px){width: 35% !important;}
 }
 .pet-container {
     height: 222px;
@@ -102,7 +124,7 @@ li::before {content: "•"; color: #f1d0b8}
     display: grid; // activate grid
     grid-template-columns: repeat(4, 1fr); //make 4 cols with size 1fr
     grid-gap: 20px; //gap between the rows
-    @media(max-width: 765px){
+    @media(max-width: 768px){
         grid-template-columns: repeat(1, 1fr); //make 4 cols with size 1fr
         height: 100%;
 
@@ -125,7 +147,7 @@ background-color: #f1d0b8 !important;
 
 .btn-more {
     margin-top: 250px;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
         margin-top: 0 !important;
     }
 }
@@ -133,6 +155,9 @@ background-color: #f1d0b8 !important;
 .pagination{
     cursor: "pointer" !important;
     letter-spacing: 12px;
+    @media(max-width: 768px){
+        height: 0;
+    }
     
 }
 #active {
@@ -142,6 +167,9 @@ background-color: #f1d0b8 !important;
     background-color:#f6f6f6;
     padding-top: 80px;
     padding-bottom: 200px;
+    @media(max-width: 768px){
+        padding-bottom: 0;
+    }
 }
 
 .pets-images-container>img{

@@ -4,7 +4,7 @@
     background-size: cover;
     height: 400px;
     // padding: 0 0 260px 0;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
         margin-top: 200px;
     }
 }
@@ -13,7 +13,7 @@
     font-size: 35px;
     color: #ffffff;
     padding-top: 80px;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
         font-size: 20px;
     }
 }
@@ -23,7 +23,7 @@
     padding-right: 30px;
     margin-top: -3px;
     float: left;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
         float: left;
         width: 25px;
         padding-right: 3px;
@@ -42,7 +42,7 @@
 .section-contact-text-info{
     font-size: 20px;
     color: #f1cdb3;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
      font-size: 15px;   
     }
 }
@@ -50,7 +50,7 @@
 .section-contact-contact{
     float: left;
     padding-right: 180px;
-    @media(max-width: 765px){
+    @media(max-width: 768px){
      padding-right: 30px;   
     //  border-right: 2px solid red;
     //  height: 300px !important;

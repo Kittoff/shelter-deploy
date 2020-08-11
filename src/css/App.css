@@ -6,6 +6,12 @@
           box-sizing: initial !important;
 }
 
+@media (max-width: 768px) {
+  * {
+    text-align: center;
+  }
+}
+
 a {
   color: inherit !important;
   text-decoration: none !important;
@@ -39,7 +45,7 @@ h3 {
   color: #545454;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .l-container {
     width: 375px !important;
   }
@@ -58,7 +64,7 @@ h3 {
   margin: 0 auto;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .l-container {
     width: 375px !important;
   }
@@ -68,7 +74,7 @@ h3 {
   clear: both;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .section-about {
     width: 10px;
     margin-left: -222px;
@@ -135,7 +141,7 @@ h3 {
           text-decoration: underline #f1cdb3 3px !important;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .menu-item {
     display: -webkit-box !important;
     display: -ms-flexbox !important;
@@ -167,7 +173,7 @@ h3 {
   margin-bottom: 55px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .header-baseline-l2 {
     width: 350px;
   }
@@ -179,7 +185,7 @@ h3 {
   height: 400px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .footer {
     margin-top: 200px;
   }
@@ -191,7 +197,7 @@ h3 {
   padding-top: 80px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .section-contact-contact-title {
     font-size: 20px;
   }
@@ -204,7 +210,7 @@ h3 {
   float: left;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .section-contact-contact-mail > img {
     float: left;
     width: 25px;
@@ -225,7 +231,7 @@ h3 {
   color: #f1cdb3;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .section-contact-text-info {
     font-size: 15px;
   }
@@ -236,7 +242,7 @@ h3 {
   padding-right: 180px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .section-contact-contact {
     padding-right: 30px;
   }
@@ -247,13 +253,13 @@ h3 {
   padding-right: 126px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .pets-donation {
     padding-right: 0;
   }
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .pets-donation img {
     width: 25rem;
     padding-right: 0 !important;
@@ -438,7 +444,7 @@ h3 {
   margin-left: 275px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .section {
     margin-left: 0;
   }
@@ -454,10 +460,38 @@ h3 {
   padding-right: 126px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .pets-about {
     padding-right: 0;
+    float: none;
   }
+}
+
+@media (max-width: 768px) {
+  .section-title-container-title {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-title-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 2em;
+  }
+  .section-title-container h1 {
+    margin-left: 222px !important;
+  }
+}
+
+.section-title-container img {
+  float: left;
 }
 
 .friends-title {
@@ -469,7 +503,7 @@ h3 {
   float: left;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .legal-information {
     width: 300px;
   }
@@ -561,7 +595,7 @@ li::before {
       justify-content: space-around;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   ._1la421bxBQAeua6KKGZ1oQ {
     width: 35% !important;
   }
@@ -579,7 +613,7 @@ li::before {
   grid-gap: 20px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .pet-container {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
@@ -604,7 +638,7 @@ li::before {
   margin-top: 250px;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .btn-more {
     margin-top: 0 !important;
   }
@@ -615,6 +649,12 @@ li::before {
   letter-spacing: 12px;
 }
 
+@media (max-width: 768px) {
+  .pagination {
+    height: 0;
+  }
+}
+
 #active {
   background-color: #f1cdb3 !important;
 }
@@ -623,6 +663,12 @@ li::before {
   background-color: #f6f6f6;
   padding-top: 80px;
   padding-bottom: 200px;
+}
+
+@media (max-width: 768px) {
+  .section-two-pets {
+    padding-bottom: 0;
+  }
 }
 
 .pets-images-container > img {
@@ -646,7 +692,7 @@ li::before {
   margin: auto;
 }
 
-@media (max-width: 765px) {
+@media (max-width: 768px) {
   .section-help-icons {
     display: -ms-grid;
     display: grid;

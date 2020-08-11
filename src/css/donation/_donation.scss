@@ -1,12 +1,12 @@
 .pets-donation{
     float: left;
     padding-right: 126px;
-    @media(max-width:765px){
+    @media(max-width:768px){
         padding-right: 0;
     }
     img{
         
-        @media(max-width: 765px){
+        @media(max-width: 768px){
             width: 25rem;
             padding-right: 0 !important;
             float: none;

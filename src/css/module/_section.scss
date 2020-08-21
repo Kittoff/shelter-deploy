@@ -132,7 +132,7 @@ li::before {content: "•"; color: #f1d0b8}
     @media(max-width: 768px){
         grid-template-columns: repeat(1, 1fr); //make 4 cols with size 1fr
         height: 100%;
-        margin-left: 10vw;
+        // margin-left: 10vw;
 
     }
 }

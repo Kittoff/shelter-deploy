@@ -35,17 +35,17 @@ const StyledBurger = styled.div`
   }
 `;
 const Burger = () => {
-    const [open, setopen] = useState(false)
-    return (
-        <>
-            <StyledBurger open={open} onClick={() => setopen(!open)}>
-                <div />
-                <div />
-                <div />
-            </StyledBurger>
-            <Rightbar open={open} />
-        </>
-    )
+  const [open, setopen] = useState(false)
+  return (
+    <>
+      <StyledBurger open={open} onClick={() => setopen(!open)}>
+        <div />
+        <div />
+        <div />
+      </StyledBurger>
+      <Rightbar open={open} />
+    </>
+  )
 }
 
 export default Burger

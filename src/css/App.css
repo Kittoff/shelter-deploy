@@ -618,6 +618,7 @@ li::before {
     -ms-grid-columns: (1fr)[1];
         grid-template-columns: repeat(1, 1fr);
     height: 100%;
+    margin-left: 10vw;
   }
 }
 

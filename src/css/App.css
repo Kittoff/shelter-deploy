@@ -512,7 +512,6 @@ h3 {
 .section-two {
   background-color: #f6f6f6;
   height: 845px;
-  padding-top: 80px;
 }
 
 .section-friends-title {
@@ -570,7 +569,6 @@ li::before {
   height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
-  margin-top: 180px;
   cursor: pointer;
 }
 
@@ -615,6 +613,28 @@ li::before {
   }
 }
 
+.main-pet-container {
+  width: 1000px;
+  height: 1000px;
+}
+
+.main-pet-container .pet-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  margin-bottom: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.main-pet-container .section-friends-images {
+  margin-bottom: 20px;
+}
+
 .carousel-btn:hover {
   background-color: #f1d0b8 !important;
 }
@@ -641,6 +661,7 @@ li::before {
 .pagination {
   cursor: "pointer" !important;
   letter-spacing: 12px;
+  top: 0px;
 }
 
 @media (max-width: 768px) {
@@ -655,7 +676,6 @@ li::before {
 
 .section-two-pets {
   background-color: #f6f6f6;
-  padding-top: 80px;
   padding-bottom: 200px;
 }
 

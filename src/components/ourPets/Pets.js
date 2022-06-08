@@ -19,6 +19,7 @@ const Pets = ({ pets, loading }) => {
                         </div>
 
                         <div className="section-friends-pets">
+                        <div className="main-pet-container">
 
                             <div className="pet-container">
                                 {pets.map(({ id, name, description, race, age, attributes, primary_photo_cropped, photos, species, gender, breeds }) => (
@@ -73,6 +74,8 @@ const Pets = ({ pets, loading }) => {
 
                                 ))}
                             </div>
+                        </div>
+
 
                         </div>
                     </div>

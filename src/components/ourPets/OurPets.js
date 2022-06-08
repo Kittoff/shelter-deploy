@@ -31,7 +31,7 @@ function OurPets() {
                 let url = "https://api.petfinder.com/v2/animals?limit=100";
                 let token = JSON.parse(sessionStorage.getItem('MyUniqueUserToken'));
 
-                console.log("token : ", token)
+                // console.log("token : ", token)
 
                 let h = new Headers();
                 h.append('Authorization', `Bearer ${token}`);
@@ -44,7 +44,7 @@ function OurPets() {
                 fetch(req)
                     .then(resp => resp.json())
                     .then(data => {
-                        console.log("data : ,", data.animals[0])
+                        // console.log("data : ,", data.animals[0])
                         setPets(data.animals)
                         setLoading(false)
                     })
@@ -71,7 +71,7 @@ function OurPets() {
 
 
             <header className="header-nav2">
-                {console.log("accesstoken : ", accessToken)}
+                {/* {console.log("accesstoken : ", accessToken)} */}
                 <div className="l-container">
                     <NavMenu />
                     <div className="cb"></div>

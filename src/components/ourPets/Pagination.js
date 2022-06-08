@@ -44,8 +44,8 @@ const Pagination = ({ petsPerPage, totalPets, paginate, currentPage }) => {
                                 fontSize: "20px",
                                 cursor: "pointer",
                                 fontFamily: "'Times New Roman', Times, serif",
-                                // marginTop: "400px",
-                                marginTop: window.innerWidth <= 768 ? "0" : "400px",
+                                marginTop: "200px",
+                                // marginTop: window.innerWidth <= 768 ? "0" : "400px",
                                 marginRight: "18px",
                                 background: "transparent"
 

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import ReactDOM from "react-dom";
 import Carousel from "react-simply-carousel";
 import data from './data/ImgComponent'
@@ -11,6 +11,11 @@ import { Link } from 'react-router-dom'
 
 export default function Pets() {
     const [activeSlide, setActiveSlide] = useState(0);
+    useEffect(() => {
+        window.scrollTo(0, 0);
+
+    }, [])
+
 
     return (
         <div className="section-two">

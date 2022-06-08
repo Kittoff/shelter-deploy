@@ -64,7 +64,7 @@ function OurPets() {
 
     // Change page
     // Change page
-    const paginate = pageNumber => setCurrentPage(pageNumber);
+    const paginate = (pageNumber) => { window.scrollTo(0, 0); setCurrentPage(pageNumber) };
     return (
         <div>
 

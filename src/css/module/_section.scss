@@ -124,11 +124,7 @@ li::before {content: "•"; color: #f1d0b8}
     height: 222px;
     text-align: center;
     width: 100%;
-    padding-bottom: 107px;
     
-    display: grid; // activate grid
-    grid-template-columns: repeat(4, 1fr); //make 4 cols with size 1fr
-    grid-gap: 20px; //gap between the rows
     @media(max-width: 768px){
         grid-template-columns: repeat(1, 1fr); //make 4 cols with size 1fr
         height: 100%;
